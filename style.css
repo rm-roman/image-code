@@ -49,7 +49,6 @@ body {
   overflow: hidden;
   color: #fff;
 }
-
 /* Header */
 .card-header {
     background: rgba(255, 255, 255, 0.04);
@@ -58,11 +57,9 @@ body {
     width: 589.5px;
     gap: 16.75px;
 }
-
 .card-header h3 {
   font-size: 19px;
 }
-
 .card-header p {
   font-size: 10.5px;
   opacity: 0.7;
@@ -89,18 +86,15 @@ body {
   align-items: center;
   gap: 10px;
 }
-
 .bank-logo {
     width: 158px;
     border-radius: 6px;
     display: flex;
     font-weight: bold;
 }
-
 .bank-logo img{
     width: 100%;
 }
-
 .change {
   color: #2bb673;
   text-decoration: none;
@@ -151,7 +145,6 @@ body {
   cursor: pointer;
   transition: 0.3s;
 }
-
 .action-btn:hover {
   background: #084ad1;
 }
@@ -196,5 +189,4 @@ body {
     .action-btn{
      width: 100%;
   }
-
 }
