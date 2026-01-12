@@ -170,9 +170,8 @@ body {
   .card-header p{
     font-size: 11px;
   }
-  .bank-box{
-    display: block;
-    text-align: center;
+   .bank-logo {
+     width: 100px;
   }
   .info-box{
      max-width: 80%;
