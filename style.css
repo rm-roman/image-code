@@ -23,19 +23,28 @@ body {
 /* Brand */
 .brand-area {
   text-align: center;
-  margin-bottom: 40px;
+  border-bottom: 1px 1px 1px 0.75px #ffffff62;
+  margin: 36px auto;
 }
-
-.brand-area h4 {
-  color: #d8f1ff;
-  font-weight: 500;
+.brand-layout {
+    width: 450px;
+    margin: 0px auto;
+    border-bottom: 1px solid #ffffff24;
 }
-
+.brand-area img {
+    width: 90px;
+    color: #d8f1ff;
+    font-weight: 500;
+}
+.brand-img {
+    padding: 9px 18px;
+    margin: 0px auto;
+    border-bottom: solid #ffffffd9;
+    width: 120px;
+}
 .brand-line {
-    width: 150px;
-    height: 2px;
-    background: rgba(255,255,255,0.35);
-    margin: 7.25px auto;
+    background: rgb(255 255 255 / 7%);
+    margin: 0px auto;
     border-radius: 2px;
 }
 
@@ -67,7 +76,7 @@ body {
 }
 
 /* Content spacing */
-.card > *:not(.card-header) {
+.card >*:not(.card-header) {
   padding: 16px 18px;
 }
 
@@ -80,6 +89,7 @@ body {
     align-items: center;
     margin: 40px 40px 24px 40px;
     padding: 20px 16px;
+    box-sizing: border-box;
 }
 .bank-left {
   display: flex;
@@ -90,16 +100,14 @@ body {
     width: 158px;
     border-radius: 6px;
     display: flex;
-    font-weight: bold;
 }
 .bank-logo img{
-    width: 100%;
+    width: 158px;
 }
 .change {
   color: #2bb673;
   text-decoration: none;
   font-size: 16px;
-  font-weight: bold; 
 }
 
 /* Info */
@@ -151,6 +159,10 @@ body {
 
 /* Responsive */
 @media screen and (max-width: 480px) {
+  .brand-layout {
+    max-width: 100%;
+    margin: auto;
+}
   .card {
     max-width: 100%;
   }
@@ -165,6 +177,9 @@ body {
   }
    .bank-logo {
      width: 100px;
+  }
+  .bank-logo img{
+    width: 100%;
   }
   .info-box{
      max-width: 80%;
